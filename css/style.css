@@ -1,0 +1,97 @@
+:root {
+  --font-brand-primary: "Fontdiner Swanky", serif;
+  --font-brand-secondary: "Work Sans", sans-serif;
+  --font-brand-tetiary: "Rubik Puddles", system-ui;
+
+  --color-accent-1: ;
+  --color-accent-2: ;
+  --color-accent-3: ;
+
+  --shadow: rgba(0, 0, 0, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+button,
+input {
+  font-family: var(--font-brand-secondary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-brand-tetiary);
+  letter-spacing: 4px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  flex: 1;
+}
+
+/* STYLING STARTS HERE */
+.page-scroll-btn {
+  box-shadow: 0 0 5px var(--shadow);
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  cursor: pointer;
+}
+
+.header {
+  box-shadow: 0 1px 5px var(--shadow);
+  height: 10vh;
+  display: flex;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.navbar-links a {
+  color: rgb(255, 145, 0);
+  font-weight: 600;
+  transition: color 0.1s;
+}
+
+.navbar-links a:hover {
+  color: rgb(212, 124, 9);
+}

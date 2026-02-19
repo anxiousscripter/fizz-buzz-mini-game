@@ -1,0 +1,25 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.highlight-primary {
+  color: rgb(255, 239, 16);
+}
+
+.highlight-secondary {
+  color: rgb(255, 145, 0);
+}
+
+.btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+}
+
+.btn-ghost {
+}
