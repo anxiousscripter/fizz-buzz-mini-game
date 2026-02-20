@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   color: #333;
+  background-color: #fefefe;
 }
 
 body,
@@ -78,7 +79,7 @@ section {
 .btn {
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 1rem;
+  padding: 0.5rem 0;
   line-height: 1.5;
   border-radius: 4px;
   cursor: pointer;
@@ -146,9 +147,55 @@ section {
 
 .hero p {
   width: 60%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .hero .button-row {
   width: 40%;
+}
+
+/* WHAT IS IT SECTION STYLING */
+.what-is-it {
+  background-color: var(--bg-accent-2);
+}
+
+.what-is-it .grid-container div:first-child {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.what-is-it h2,
+.how-it-works h2 {
+  font-size: 3.5rem;
+  font-family: var(--font-brand-tetiary);
+  color: #000;
+}
+
+/* HOW IT WORKS SECTION STYLING */
+.how-it-works {
+  background-color: var(--bg-accent-1);
+}
+
+.how-it-works img {
+  width: 90%;
+}
+
+.how-it-works .container div:nth-child(2) {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* SOURCE CODE SECTION STYING */
+.source-code {
+  text-align: center;
 }
