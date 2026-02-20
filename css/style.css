@@ -76,6 +76,12 @@ section {
   padding: 3rem 0;
 }
 
+section h2 {
+  font-size: 3.5rem;
+  font-family: var(--font-brand-tetiary);
+  color: #000;
+}
+
 .btn {
   font-size: 1.1rem;
   font-weight: 600;
@@ -145,7 +151,8 @@ section {
   margin-bottom: 1.8rem;
 }
 
-.hero p {
+.hero p,
+.how-it-works-3 p {
   width: 60%;
   margin-bottom: 3rem;
 }
@@ -169,13 +176,6 @@ section {
   padding: 1rem;
 }
 
-.what-is-it h2,
-.how-it-works h2 {
-  font-size: 3.5rem;
-  font-family: var(--font-brand-tetiary);
-  color: #000;
-}
-
 /* HOW IT WORKS SECTION STYLING */
 .how-it-works {
   background-color: var(--bg-accent-1);
@@ -186,6 +186,49 @@ section {
 }
 
 .how-it-works .container div:nth-child(2) {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* HOW IT WORKS SECTION 2 STYLING */
+.how-it-works-2 .grid-container div:first-child {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.how-it-works-2 img {
+  width: 90%;
+}
+
+/* HOW IT WORKS SECTION 3 STYING */
+.how-it-works-3 {
+  background-color: var(--bg-accent-2);
+}
+
+.how-it-works-3 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.how-it-works-3 h2 {
+  width: 70%;
+  margin-bottom: 1.5rem;
+}
+
+/* READY TO PLAY SECTION STYLING */
+.ready-to-play .grid-container div:first-child {
   text-align: center;
   display: flex;
   flex-direction: column;
