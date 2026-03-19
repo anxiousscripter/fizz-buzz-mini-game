@@ -109,6 +109,11 @@ section h2 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.page-scroll-btn:hover {
+  opacity: 0.9;
 }
 
 .header {
@@ -131,12 +136,13 @@ section h2 {
 .navbar-links a {
   color: var(--btn-color-primary);
   font-weight: 600;
-  transition: color 0.1s;
+  transition: color 0.3s;
   white-space: nowrap;
 }
 
 .navbar-links a:hover {
-  color: rgb(212, 124, 9);
+  /* color: rgb(212, 124, 9); */
+  color: #333;
 }
 
 /* HERO SECTION STYLING */
@@ -218,7 +224,7 @@ section h2 {
   width: 90%;
 }
 
-/* HOW IT WORKS SECTION 3 STYING */
+/* HOW IT WORKS SECTION 3 STYLING */
 .how-it-works-3 {
   background-color: var(--bg-accent-2);
 }
@@ -233,6 +239,11 @@ section h2 {
 .how-it-works-3 h2 {
   width: 70%;
   margin-bottom: 1.5rem;
+}
+
+.how-it-works-3 .game-match {
+  width: 80%;
+  margin: 3rem 0;
 }
 
 /* READY TO PLAY SECTION STYLING */
